@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		3A372B922AB34A5200954057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A372B912AB34A5200954057 /* AppDelegate.swift */; };
 		3A372B942AB34A5200954057 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A372B932AB34A5200954057 /* SceneDelegate.swift */; };
-		3A372B962AB34A5200954057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A372B952AB34A5200954057 /* ViewController.swift */; };
 		3A372B992AB34A5200954057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A372B972AB34A5200954057 /* Main.storyboard */; };
 		3A372B9B2AB34A5400954057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A372B9A2AB34A5400954057 /* Assets.xcassets */; };
 		3A372B9E2AB34A5400954057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A372B9C2AB34A5400954057 /* LaunchScreen.storyboard */; };
+		3A372BB02AB3528A00954057 /* Rakhim - Синий Lamborghini.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A372BAA2AB3528A00954057 /* Rakhim - Синий Lamborghini.mp3 */; };
+		3A372BB12AB3528A00954057 /* Ваня Дмитриенко - Венера-Юпитер.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A372BAB2AB3528A00954057 /* Ваня Дмитриенко - Венера-Юпитер.mp3 */; };
+		3A372BB22AB3528A00954057 /* Rauf & Faik, NILETTO - Если тебе будет грустно.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A372BAC2AB3528A00954057 /* Rauf & Faik, NILETTO - Если тебе будет грустно.mp3 */; };
+		3A372BB32AB3528A00954057 /* Нурминский - Валим.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A372BAD2AB3528A00954057 /* Нурминский - Валим.mov */; };
+		3A372BB42AB3528A00954057 /* Rasa - Под фонарём.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A372BAE2AB3528A00954057 /* Rasa - Под фонарём.mp3 */; };
+		3A372BB52AB3528A00954057 /* Нурминский - Валим.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A372BAF2AB3528A00954057 /* Нурминский - Валим.mp3 */; };
+		3A372BB82AB3534400954057 /* TrackListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A372BB72AB3534400954057 /* TrackListTableViewController.swift */; };
+		3A372BBB2AB35BEA00954057 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A372BBA2AB35BEA00954057 /* Track.swift */; };
+		3A372BBE2AB35C8500954057 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A372BBD2AB35C8500954057 /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A372B8E2AB34A5200954057 /* PlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A372B912AB34A5200954057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A372B932AB34A5200954057 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A372B952AB34A5200954057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A372B982AB34A5200954057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A372B9A2AB34A5400954057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A372B9D2AB34A5400954057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A372B9F2AB34A5400954057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A372BAA2AB3528A00954057 /* Rakhim - Синий Lamborghini.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rakhim - Синий Lamborghini.mp3"; sourceTree = "<group>"; };
+		3A372BAB2AB3528A00954057 /* Ваня Дмитриенко - Венера-Юпитер.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ваня Дмитриенко - Венера-Юпитер.mp3"; sourceTree = "<group>"; };
+		3A372BAC2AB3528A00954057 /* Rauf & Faik, NILETTO - Если тебе будет грустно.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rauf & Faik, NILETTO - Если тебе будет грустно.mp3"; sourceTree = "<group>"; };
+		3A372BAD2AB3528A00954057 /* Нурминский - Валим.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Нурминский - Валим.mov"; sourceTree = "<group>"; };
+		3A372BAE2AB3528A00954057 /* Rasa - Под фонарём.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rasa - Под фонарём.mp3"; sourceTree = "<group>"; };
+		3A372BAF2AB3528A00954057 /* Нурминский - Валим.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Нурминский - Валим.mp3"; sourceTree = "<group>"; };
+		3A372BB72AB3534400954057 /* TrackListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListTableViewController.swift; sourceTree = "<group>"; };
+		3A372BBA2AB35BEA00954057 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		3A372BBD2AB35C8500954057 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,87 @@
 		3A372B902AB34A5200954057 /* PlayerApp */ = {
 			isa = PBXGroup;
 			children = (
-				3A372B912AB34A5200954057 /* AppDelegate.swift */,
-				3A372B932AB34A5200954057 /* SceneDelegate.swift */,
-				3A372B952AB34A5200954057 /* ViewController.swift */,
-				3A372B972AB34A5200954057 /* Main.storyboard */,
-				3A372B9A2AB34A5400954057 /* Assets.xcassets */,
-				3A372B9C2AB34A5400954057 /* LaunchScreen.storyboard */,
-				3A372B9F2AB34A5400954057 /* Info.plist */,
+				3A372BBC2AB35C6900954057 /* DataServices */,
+				3A372BB92AB35BAE00954057 /* Models */,
+				3A372BB62AB3529400954057 /* Videos */,
+				3A372BA92AB3528A00954057 /* Tracks */,
+				3A372BA62AB3514A00954057 /* Controllers */,
+				3A372BA52AB3513E00954057 /* Views */,
+				3A372BA82AB351B400954057 /* App */,
+				3A372BA72AB3518F00954057 /* SupportFiles */,
 			);
 			path = PlayerApp;
+			sourceTree = "<group>";
+		};
+		3A372BA52AB3513E00954057 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A372B972AB34A5200954057 /* Main.storyboard */,
+				3A372B9C2AB34A5400954057 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A372BA62AB3514A00954057 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A372BB72AB3534400954057 /* TrackListTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3A372BA72AB3518F00954057 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3A372B9A2AB34A5400954057 /* Assets.xcassets */,
+				3A372B9F2AB34A5400954057 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		3A372BA82AB351B400954057 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3A372B912AB34A5200954057 /* AppDelegate.swift */,
+				3A372B932AB34A5200954057 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3A372BA92AB3528A00954057 /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				3A372BAA2AB3528A00954057 /* Rakhim - Синий Lamborghini.mp3 */,
+				3A372BAB2AB3528A00954057 /* Ваня Дмитриенко - Венера-Юпитер.mp3 */,
+				3A372BAC2AB3528A00954057 /* Rauf & Faik, NILETTO - Если тебе будет грустно.mp3 */,
+				3A372BAE2AB3528A00954057 /* Rasa - Под фонарём.mp3 */,
+				3A372BAF2AB3528A00954057 /* Нурминский - Валим.mp3 */,
+			);
+			path = Tracks;
+			sourceTree = "<group>";
+		};
+		3A372BB62AB3529400954057 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				3A372BAD2AB3528A00954057 /* Нурминский - Валим.mov */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		3A372BB92AB35BAE00954057 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A372BBA2AB35BEA00954057 /* Track.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A372BBC2AB35C6900954057 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				3A372BBD2AB35C8500954057 /* DataSource.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +215,13 @@
 			files = (
 				3A372B9E2AB34A5400954057 /* LaunchScreen.storyboard in Resources */,
 				3A372B9B2AB34A5400954057 /* Assets.xcassets in Resources */,
+				3A372BB42AB3528A00954057 /* Rasa - Под фонарём.mp3 in Resources */,
+				3A372BB52AB3528A00954057 /* Нурминский - Валим.mp3 in Resources */,
+				3A372BB22AB3528A00954057 /* Rauf & Faik, NILETTO - Если тебе будет грустно.mp3 in Resources */,
+				3A372BB12AB3528A00954057 /* Ваня Дмитриенко - Венера-Юпитер.mp3 in Resources */,
+				3A372BB02AB3528A00954057 /* Rakhim - Синий Lamborghini.mp3 in Resources */,
 				3A372B992AB34A5200954057 /* Main.storyboard in Resources */,
+				3A372BB32AB3528A00954057 /* Нурминский - Валим.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A372B962AB34A5200954057 /* ViewController.swift in Sources */,
 				3A372B922AB34A5200954057 /* AppDelegate.swift in Sources */,
 				3A372B942AB34A5200954057 /* SceneDelegate.swift in Sources */,
+				3A372BB82AB3534400954057 /* TrackListTableViewController.swift in Sources */,
+				3A372BBE2AB35C8500954057 /* DataSource.swift in Sources */,
+				3A372BBB2AB35BEA00954057 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,12 +385,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XMRMHLG4UV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlayerApp/Info.plist;
+				INFOPLIST_FILE = PlayerApp/SupportFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Player Name";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,12 +417,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XMRMHLG4UV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlayerApp/Info.plist;
+				INFOPLIST_FILE = PlayerApp/SupportFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Player Name";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
