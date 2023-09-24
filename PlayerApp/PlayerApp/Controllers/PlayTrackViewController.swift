@@ -8,6 +8,8 @@
 import UIKit
 
 class PlayTrackViewController: UIViewController {
+    
+    var track: Track?
 
     override func viewDidLoad() {
         super.viewDidLoad()
