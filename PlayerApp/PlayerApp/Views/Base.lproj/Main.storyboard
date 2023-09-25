@@ -102,6 +102,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8HX-vW-mRX"/>
+                    <connections>
+                        <outlet property="trackImage" destination="EqB-ga-EoT" id="n5x-x9-hgq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZuY-U0-ZjN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

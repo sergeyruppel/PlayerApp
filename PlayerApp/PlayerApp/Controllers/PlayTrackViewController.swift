@@ -6,15 +6,28 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PlayTrackViewController: UIViewController {
     
+    @IBOutlet weak var trackImage: UIImageView!
+    
     var track: Track?
-
+    
+    var player: AVAudioPlayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        navigationItem.title = track?.fileName ?? "Track Name"
+        trackImage.image = UIImage(named: track?.fileName ?? "")
+        
+        guard let url = Bundle.main.url(
+            forResource: track?.fileName, withExtension: track?.fileExtension
+        ) else { return }
+        
+        player = AVAudioPlayer()
+        player.
     }
     
 
